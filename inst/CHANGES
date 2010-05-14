@@ -1,3 +1,12 @@
+Changes in Version 1.22.1
+
+   o Fixed weird bug in smoothCNA.f triggered when there are at most
+     2*smooth.region (default smooth.region=2) markers in a chromosome.
+
+
+1.21.6 became 1.22.0 in Bioconductor 2.6
+----------------------------------------
+
 Changes in Version 1.21.6
 
    o Fixed indexing bug (i <= k or i > n-k, not and) in smoothCNA.f
